@@ -1,0 +1,10 @@
+^C:\USERS\JOSHL\DOCUMENTS\VS_PROJECTS\LIION_CHARGER_INTERFACE\LIBB6\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/joshl/Documents/VS_projects/LiIon_charger_interface/libb6 -BC:/Users/joshl/Documents/VS_projects/LiIon_charger_interface/libb6/build --check-stamp-file C:/Users/joshl/Documents/VS_projects/LiIon_charger_interface/libb6/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

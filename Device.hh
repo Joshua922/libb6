@@ -97,7 +97,7 @@ namespace b6 {
 
     void m_getDevInfo();
 
-    ChargingError m_throwError(ERROR err);
+    ChargingError m_throwError(ERRORS err);
   };
 }
 

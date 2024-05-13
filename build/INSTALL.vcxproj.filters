@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\joshl\Documents\VS_projects\LiIon_charger_interface\libb6\build\CMakeFiles\5fa953f36f13437a3fde8094a3771459\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{73E1FCCB-F08F-3F0A-9F4E-2978DD8E1344}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

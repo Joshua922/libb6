@@ -69,7 +69,7 @@ namespace b6 {
     ERROR_2                 = 0x04,
   };
 
-  enum class ERROR : uint16_t {
+  enum class ERRORS : uint16_t {
     CONNECTION_BROKEN_1     = 0x000b,
     CELL_VOLTAGE_INVALID    = 0x000c,
     BALANCE_CONNECTION      = 0x000d,
